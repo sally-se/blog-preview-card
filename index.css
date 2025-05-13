@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(47, 88%, 63%);
+    min-height: 100hv;
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'figtree', sans-serif;
+
+}
+#container{
+    max-width: 375px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    margin: 200px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 5px;
+    position: relative;
+    
+}
+img{
+    border-radius: 8px;
+}
+h1{
+    font-size: 16px;
+    font-weight: strong;
+    background-color: hsl(47, 88%, 63%);
+    width: min-content;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+
+}
+h2{
+    font-size: 16px;
+    font-weight: lighter;
+    color: hsl(0, 0%, 7%);
+    margin-top: 15px;
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+h3:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    transform: 0.5s;
+}
+p{
+    color: hsl(0, 0%, 42%);
+    margin-top: 15px;
+}
+#profile{
+    display: inline-flex;
+    margin-top: 15px;
+}
+.name{
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+
+}
